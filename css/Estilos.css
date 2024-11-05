@@ -4,6 +4,7 @@
 	--web-scale-on-resize: true;
 	--web-navigate-on-keypress: true;
 	--web-refresh-for-changes: true;
+	--web-application: true;
 	--web-enable-deep-linking: true;
 }
 :root {
@@ -26,34 +27,16 @@
 	--web-scale-on-resize: true;
 	--web-navigate-on-keypress: true;
 	--web-refresh-for-changes: true;
+	--web-application: true;
 	--web-enable-deep-linking: true;
 }
-@keyframes  {
-
-
-}
-@keyframes  {
-
-
-}
-.aaa_Class {
-	fill: rgba(255,255,255,1);
-}
-.aaa {
-	position: absolute;
-	overflow: visible;
-	width: 32px;
-	height: 34px;
-	left: 5px;
-	top: 57px;
-}
-.aab_Class {
+.titulo_Principal {
 	border: 0;
-	left: 103px;
+	left: 134px;
 	top: 359px;
 	position: absolute;
 	overflow: visible;
-	width: 225px;
+	width: 163px;
 	white-space: nowrap;
 	text-align: center;
 	font-family: Fredoka;
@@ -62,50 +45,74 @@
 	font-size: 26px;
 	color: rgba(112,112,112,1);
 }
-.aac_Class {
-	position: absolute;
-	width: 292px;
-	height: 50px;
-	left: 68px;
-	top: 489px;
-	overflow: visible;
-	--web-animation: fadein undefineds undefined;
-	--web-action-type: page;
-	--web-action-target: Login_.html;
-	cursor: pointer;
-}
-.aad_Class {
-	fill: rgba(82,167,110,1);
-	stroke: rgba(112,112,112,0);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-.aad {
-	position: absolute;
-	overflow: visible;
-	width: 292px;
-	height: 50px;
-	left: 0px;
-	top: 0px;
-}
-.aae_Class {
+.subtitulo {
 	border: 0;
-	left: 122px;
-	top: 12px;
+	left: 98px;
+	top: 390px;
 	position: absolute;
 	overflow: visible;
-	width: 51px;
+	width: 225px;
 	white-space: nowrap;
 	text-align: center;
 	font-family: Fredoka;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 20px;
-	color: rgba(255,255,255,1);
+	color: rgba(112,112,112,1);
 }
+
+.container {
+	position: relative; /* Para que os filhos possam ser posicionados em relação a este contêiner */
+    width: 100%; /* Largura total */
+    height: 100vh; /* Altura da viewport */
+}
+
+.botao_Login {
+	position: absolute; 
+	top: 490px;
+	left: 50%;
+	transform: translateX(-50%);
+    background-color: #52a76e; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    border-radius: 10px; /* Cantos arredondados */
+	width: 292px; /* Largura do botão */
+    height: 50px; /* Altura do botão */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor em forma de mão */
+    display: flex; /* Para centralizar o conteúdo */
+    align-items: center; /* Alinhamento vertical */
+    justify-content: center; /* Alinhamento horizontal */
+}
+
+.botao_Login:hover {
+    background-color: #DBEADF; /* Cor de fundo ao passar o mouse */
+}
+
+.botao_CadastreSe {
+	font-family: Fredoka;
+	font-weight: 500;
+	position: absolute;
+	top: 550px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #4B4E6D;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	width: 292px;
+	height: 50px;
+	font-size: 16px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.botao_CadastreSe:hover {
+	background-color: #DBEADF;
+}
+
 .aaf_Class {
 	position: absolute;
 	width: 292px;
@@ -113,10 +120,6 @@
 	left: 68px;
 	top: 554px;
 	overflow: visible;
-	--web-animation: fadein undefineds undefined;
-	--web-action-type: page;
-	--web-action-target: Cadastre-se.html;
-	cursor: pointer;
 }
 .aag_Class {
 	fill: rgba(76,78,109,1);
@@ -156,6 +159,7 @@
 	height: 20px;
 	left: 0px;
 	top: 0px;
+	display: none;
 	overflow: visible;
 }
 .aaj_Class {
@@ -369,615 +373,11 @@
 	left: 1px;
 	top: 1px;
 }
-.aax_Class {
+.logo_SaudeABordo_Home {
 	position: absolute;
-	width: 124.989px;
-	height: 187.301px;
-	left: 152.506px;
-	top: 131.974px;
+	width: 221px;
+	height: 221px;
+	left: 105px;
+	top: 110px;
 	overflow: visible;
-}
-.aay_Class {
-	position: absolute;
-	width: 124.989px;
-	height: 187.301px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-.aaz_Class {
-	fill: rgba(219,234,223,1);
-}
-.aaz {
-	overflow: visible;
-	position: absolute;
-	width: 124.989px;
-	height: 187.301px;
-	left: 0px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.aba_Class {
-	position: absolute;
-	width: 113.784px;
-	height: 176.096px;
-	left: 5.602px;
-	top: 5.602px;
-	overflow: visible;
-}
-.abb_Class {
-	fill: rgba(75,78,109,1);
-}
-.abb {
-	overflow: visible;
-	position: absolute;
-	width: 11.974px;
-	height: 13.809px;
-	left: 96.391px;
-	top: 138.253px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.abc_Class {
-	fill: rgba(75,78,109,1);
-}
-.abc {
-	overflow: visible;
-	position: absolute;
-	width: 14.732px;
-	height: 21.37px;
-	left: 19.899px;
-	top: 154.726px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.abd_Class {
-	fill: rgba(75,78,109,1);
-}
-.abd {
-	overflow: visible;
-	position: absolute;
-	width: 21.105px;
-	height: 20.37px;
-	left: 35.344px;
-	top: 155.477px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.abe_Class {
-	fill: rgba(75,78,109,1);
-}
-.abe {
-	overflow: visible;
-	position: absolute;
-	width: 32.291px;
-	height: 21.12px;
-	left: 57.597px;
-	top: 154.73px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.abf_Class {
-	fill: rgba(75,78,109,1);
-}
-.abf {
-	overflow: visible;
-	position: absolute;
-	width: 21.105px;
-	height: 20.37px;
-	left: 90.296px;
-	top: 155.477px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.abg_Class {
-	fill: rgba(75,78,109,1);
-}
-.abg {
-	overflow: visible;
-	position: absolute;
-	width: 14.085px;
-	height: 19.557px;
-	left: 5.131px;
-	top: 132.567px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.abh_Class {
-	fill: rgba(75,78,109,1);
-}
-.abh {
-	overflow: visible;
-	position: absolute;
-	width: 17.531px;
-	height: 20.298px;
-	left: 19.794px;
-	top: 132.423px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.abi_Class {
-	fill: rgba(75,78,109,1);
-}
-.abi {
-	overflow: visible;
-	position: absolute;
-	width: 16.55px;
-	height: 19.755px;
-	left: 38.536px;
-	top: 132.635px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.abj_Class {
-	fill: rgba(75,78,109,1);
-}
-.abj {
-	overflow: visible;
-	position: absolute;
-	width: 16.627px;
-	height: 20.177px;
-	left: 55.587px;
-	top: 132.65px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.abk_Class {
-	fill: rgba(75,78,109,1);
-}
-.abk {
-	overflow: visible;
-	position: absolute;
-	width: 18.295px;
-	height: 20.352px;
-	left: 73.396px;
-	top: 132.233px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.abl_Class {
-	fill: rgba(75,78,109,1);
-}
-.abl {
-	overflow: visible;
-	position: absolute;
-	width: 7.539px;
-	height: 7.45px;
-	left: 45.802px;
-	top: 125.612px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.abm_Class {
-	fill: rgba(75,78,109,1);
-}
-.abm {
-	overflow: visible;
-	position: absolute;
-	width: 4.832px;
-	height: 4.805px;
-	left: 97.77px;
-	top: 134.555px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.abn_Class {
-	fill: rgba(75,78,109,1);
-}
-.abn {
-	overflow: visible;
-	position: absolute;
-	width: 52.923px;
-	height: 52.9px;
-	left: 37.994px;
-	top: 22.875px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.abo_Class {
-	fill: rgba(75,78,109,1);
-}
-.abo {
-	overflow: visible;
-	position: absolute;
-	width: 32.222px;
-	height: 32.226px;
-	left: 81.562px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.abp_Class {
-	fill: rgba(75,78,109,1);
-}
-.abp {
-	position: absolute;
-	overflow: visible;
-	width: 5.087px;
-	height: 13.02px;
-	left: 5.95px;
-	top: 41.257px;
-}
-.abq_Class {
-	fill: rgba(75,78,109,1);
-}
-.abq {
-	overflow: visible;
-	position: absolute;
-	width: 89.792px;
-	height: 29.281px;
-	left: 5.95px;
-	top: 3.183px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.abr_Class {
-	fill: rgba(75,78,109,1);
-}
-.abr {
-	overflow: visible;
-	position: absolute;
-	width: 65.335px;
-	height: 30.073px;
-	left: 5.954px;
-	top: 84.889px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.abs_Class {
-	fill: rgba(75,78,109,1);
-}
-.abs {
-	position: absolute;
-	overflow: visible;
-	width: 5.087px;
-	height: 13.02px;
-	left: 5.95px;
-	top: 63.073px;
-}
-.abt_Class {
-	fill: rgba(75,78,109,1);
-}
-.abt {
-	overflow: visible;
-	position: absolute;
-	width: 5.087px;
-	height: 50.833px;
-	left: 94.793px;
-	top: 31.462px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.abu_Class {
-	fill: rgba(75,78,109,1);
-}
-.abu {
-	overflow: visible;
-	position: absolute;
-	width: 22.935px;
-	height: 10.243px;
-	left: 0px;
-	top: 31.342px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.abv_Class {
-	fill: rgba(75,78,109,1);
-}
-.abv {
-	overflow: visible;
-	position: absolute;
-	width: 22.938px;
-	height: 10.243px;
-	left: 0px;
-	top: 53.553px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.abw_Class {
-	fill: rgba(75,78,109,1);
-}
-.abw {
-	overflow: visible;
-	position: absolute;
-	width: 22.935px;
-	height: 10.243px;
-	left: 0.003px;
-	top: 74.97px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.abx_Class {
-	fill: rgba(75,78,109,1);
-}
-.abx {
-	overflow: visible;
-	position: absolute;
-	width: 49.591px;
-	height: 45.046px;
-	left: 61.257px;
-	top: 79.926px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.aby_Class {
-	position: absolute;
-	width: 112.659px;
-	height: 174.97px;
-	left: 6.445px;
-	top: 5.323px;
-	overflow: visible;
-}
-.abz_Class {
-	position: absolute;
-	width: 105.15px;
-	height: 49.364px;
-	left: 5.138px;
-	top: 125.606px;
-	overflow: visible;
-}
-.aca_Class {
-	fill: rgba(82,167,110,1);
-}
-.aca {
-	overflow: visible;
-	position: absolute;
-	width: 10.856px;
-	height: 12.69px;
-	left: 91.243px;
-	top: 12.642px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.acb_Class {
-	fill: rgba(82,167,110,1);
-}
-.acb {
-	overflow: visible;
-	position: absolute;
-	width: 13.609px;
-	height: 20.246px;
-	left: 14.76px;
-	top: 29.118px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.acc_Class {
-	fill: rgba(82,167,110,1);
-}
-.acc {
-	overflow: visible;
-	position: absolute;
-	width: 19.986px;
-	height: 19.248px;
-	left: 30.211px;
-	top: 29.874px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.acd_Class {
-	fill: rgba(82,167,110,1);
-}
-.acd {
-	overflow: visible;
-	position: absolute;
-	width: 13.586px;
-	height: 19.68px;
-	left: 52.456px;
-	top: 29.134px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.ace_Class {
-	fill: rgba(82,167,110,1);
-}
-.ace {
-	overflow: visible;
-	position: absolute;
-	width: 16.584px;
-	height: 19.032px;
-	left: 67.042px;
-	top: 30.106px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.acf_Class {
-	fill: rgba(82,167,110,1);
-}
-.acf {
-	overflow: visible;
-	position: absolute;
-	width: 19.986px;
-	height: 19.248px;
-	left: 85.164px;
-	top: 29.874px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.acg_Class {
-	fill: rgba(82,167,110,1);
-}
-.acg {
-	overflow: visible;
-	position: absolute;
-	width: 12.967px;
-	height: 18.429px;
-	left: 0px;
-	top: 6.963px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.ach_Class {
-	fill: rgba(82,167,110,1);
-}
-.ach {
-	overflow: visible;
-	position: absolute;
-	width: 16.404px;
-	height: 19.175px;
-	left: 14.654px;
-	top: 6.822px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.aci_Class {
-	fill: rgba(82,167,110,1);
-}
-.aci {
-	overflow: visible;
-	position: absolute;
-	width: 15.429px;
-	height: 18.629px;
-	left: 33.392px;
-	top: 7.031px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.acj_Class {
-	fill: rgba(82,167,110,1);
-}
-.acj {
-	overflow: visible;
-	position: absolute;
-	width: 15.51px;
-	height: 19.046px;
-	left: 50.445px;
-	top: 7.041px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.ack_Class {
-	fill: rgba(82,167,110,1);
-}
-.ack {
-	overflow: visible;
-	position: absolute;
-	width: 17.19px;
-	height: 19.228px;
-	left: 68.244px;
-	top: 6.62px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.acl_Class {
-	fill: rgba(82,167,110,1);
-}
-.acl {
-	overflow: visible;
-	position: absolute;
-	width: 6.417px;
-	height: 6.329px;
-	left: 40.66px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.acm_Class {
-	fill: rgba(82,167,110,1);
-}
-.acm {
-	overflow: visible;
-	position: absolute;
-	width: 3.712px;
-	height: 3.689px;
-	left: 92.632px;
-	top: 8.944px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.acn_Class {
-	fill: rgba(82,167,110,1);
-}
-.acn {
-	overflow: visible;
-	position: absolute;
-	width: 51.803px;
-	height: 51.786px;
-	left: 37.988px;
-	top: 22.87px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.aco_Class {
-	fill: rgba(82,167,110,1);
-}
-.aco {
-	overflow: visible;
-	position: absolute;
-	width: 31.104px;
-	height: 31.106px;
-	left: 81.555px;
-	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.acp_Class {
-	fill: rgba(82,167,110,1);
-}
-.acp {
-	position: absolute;
-	overflow: visible;
-	width: 3.965px;
-	height: 11.897px;
-	left: 5.95px;
-	top: 41.257px;
-}
-.acq_Class {
-	fill: rgba(82,167,110,1);
-}
-.acq {
-	overflow: visible;
-	position: absolute;
-	width: 88.669px;
-	height: 28.162px;
-	left: 5.95px;
-	top: 3.187px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.acr_Class {
-	fill: rgba(82,167,110,1);
-}
-.acr {
-	overflow: visible;
-	position: absolute;
-	width: 64.216px;
-	height: 28.953px;
-	left: 5.954px;
-	top: 84.885px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.acs_Class {
-	fill: rgba(82,167,110,1);
-}
-.acs {
-	position: absolute;
-	overflow: visible;
-	width: 3.965px;
-	height: 11.897px;
-	left: 5.95px;
-	top: 63.073px;
-}
-.act_Class {
-	fill: rgba(82,167,110,1);
-}
-.act {
-	overflow: visible;
-	position: absolute;
-	width: 3.968px;
-	height: 49.712px;
-	left: 94.793px;
-	top: 31.465px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.acu_Class {
-	fill: rgba(82,167,110,1);
-}
-.acu {
-	overflow: visible;
-	position: absolute;
-	width: 21.812px;
-	height: 9.123px;
-	left: 0px;
-	top: 31.338px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.acv_Class {
-	fill: rgba(82,167,110,1);
-}
-.acv {
-	overflow: visible;
-	position: absolute;
-	width: 21.812px;
-	height: 9.123px;
-	left: 0px;
-	top: 53.554px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.acw_Class {
-	fill: rgba(82,167,110,1);
-}
-.acw {
-	overflow: visible;
-	position: absolute;
-	width: 21.816px;
-	height: 9.124px;
-	left: 0px;
-	top: 74.97px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.acx_Class {
-	fill: rgba(82,167,110,1);
-}
-.acx {
-	overflow: visible;
-	position: absolute;
-	width: 48.477px;
-	height: 43.925px;
-	left: 61.258px;
-	top: 79.924px;
-	transform: matrix(1,0,0,1,0,0);
 }
